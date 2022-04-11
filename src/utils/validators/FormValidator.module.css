@@ -1,0 +1,11 @@
+
+.form {
+    border: 2px solid red;
+}
+.error {
+    color: red;
+}
+
+.warning {
+    color: #ffc564;
+}

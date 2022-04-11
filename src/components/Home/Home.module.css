@@ -1,0 +1,93 @@
+/*Colours used: 085467 - AFA7BB - F4C0B3*/
+.App__header {
+    background-image: linear-gradient(135deg, #6734c7 20%, #ddd4f8);
+    border-radius: 10px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    margin-bottom: 50px;
+}
+.App__header  p{
+    margin: 15px 0;
+}
+.App__logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App__logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.App__content {
+    text-align: center;
+    color: #61dafb;
+
+    padding: 25px;
+}
+
+.App__header a{
+    background-image: linear-gradient(270deg, #085467,  #F4C0B3);
+    background-repeat: no-repeat;
+
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size ease-in-out 600ms;
+
+    padding: 15px;
+    border-radius: 10px;
+}
+.App__header a:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+/*--------hover-tip-tutorial-------*/
+.hover_tip {
+    background-image: radial-gradient(#7E57C2, #61dafb);
+    background-repeat: no-repeat;
+
+    background-size: 0% 100%;
+    background-position-x: right;
+
+    transition: background-size ease-in-out 600ms;
+}
+.hover_tip:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+/*--------twilight-gradient-tutorial-------*/
+/*Colours used: 085467 - AFA7BB - F4C0B3*/
+/*7E57C2 and 3F51B5*/
+.twilight {
+    margin: 0 auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 48px;
+    font-weight: 750;
+    width: 400px;
+    height: 800px;
+
+    border: 10px solid #000;
+
+    background-image: linear-gradient(#085467, #AFA7BB, #F4C0B3);
+}

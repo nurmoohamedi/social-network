@@ -1,0 +1,30 @@
+.header {
+    /*grid-area: header;*/
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 10px 150px;
+    background-color: #f9faff;
+}
+
+.header__logo a {
+    font-size: 1.6em;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header__nav div{
+    display: flex;
+    align-items: center;
+}
+
+.header__nav button{
+    margin-left: 25px;
+    padding: 7px 15px;
+}
+.header__nav a{
+    padding: 7px 15px;
+    color: #555;
+}

@@ -1,0 +1,62 @@
+.posts {
+    /*margin: 0 20px ;*/
+
+    padding: 30px;
+    background-color: #eeeff4;
+
+}
+
+.posts h2{
+    padding: 20px;
+    font-size: 24px;
+    color: #878ca3;
+}
+
+.container{
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 0 20px;
+}
+
+.add_form{
+
+}
+
+.add_form form{
+    max-width: 50%;
+    background-color: #eeeff4;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add_form textarea{
+    width: 100%;
+    padding: 15px 0 0px 15px;
+    border: 1px solid #29a7c0;
+    color: #218496;
+    font-weight: 700;
+}
+
+.add_form button{
+    width: 100%;
+    padding: 15px 0;
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #77c6d7;
+    background-color: #fff;
+    border: 1px solid #29a7c0;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+}
+.add_form button:hover{
+    background-color: #29a7c0;
+    color: #fff;
+}
+
+.posts_items{
+    padding: 20px;
+    margin-top: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+}

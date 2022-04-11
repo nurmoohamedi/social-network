@@ -1,0 +1,28 @@
+.sidebar{
+    grid-area: sidebar;
+    /*height: 800px;*/
+    background-color: #eeeff4;
+
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sidebar__fixed{
+    position: fixed;
+    background-color: #fff;
+    padding: 50px 25px;
+    border-radius: 10px;
+}
+
+.sidebar__fixed div{
+    margin: 10px 0;
+}
+
+a{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+a:hover{
+    color: red;
+}
