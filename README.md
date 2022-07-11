@@ -10,6 +10,4 @@ also styled by SCSS preprocessor
 
 • Link to Deploy - [nurmoohamedi.github.io/social-network/](https://nurmoohamedi.github.io/social-network/)
 
-## Deploy
-
 
