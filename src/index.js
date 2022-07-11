@@ -4,18 +4,18 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-// import reportWebVitals from './reportWebVitals';
-import {BrowserRouter as Router} from 'react-router-dom'
+import {HashRouter, BrowserRouter as Router} from 'react-router-dom'
 import {Provider} from "react-redux";
 
 export let reRenderEntireTree = (store) => {
     ReactDOM.render(
         <React.StrictMode>
-            <Router>
+            <HashRouter >
+                {/*basename={process.env.PUBLIC_URL}*/}
                 <Provider store={store}>
                     <App/>
                 </Provider>
-            </Router>
+            </HashRouter>
 
         </React.StrictMode>,
         document.getElementById('root')

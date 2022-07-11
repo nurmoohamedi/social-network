@@ -46,3 +46,20 @@
     background-color: #fff;
     border: 2px solid #61dafb;
 }
+
+.credentials{
+    margin-top: 20px;
+    text-align: center;
+}
+.credentials div{
+    font-style: italic;
+}
+
+.credentials span{
+    font-weight: 700;
+    padding-right: 15px;
+}
+
+.credentials p{
+    margin: 20px 15px 0 0;
+}

@@ -32,6 +32,12 @@ let LoginForm = (props) => {
                 {props.captchaUrl && <Field label={"Captcha text"} name={"captcha"} component={Input}/>}
 
                 <button className={styles.login__btn}>Login</button>
+
+                <div className={styles.credentials}>
+                    <div>Want to join?! Here we go!</div>
+                    <p><span>Login</span> nurmoohamedi@gmail.com</p>
+                    <p><span>Password</span> GXzP2rShVaMhFqk</p>
+                </div>
             </form>
         </div>
     )
